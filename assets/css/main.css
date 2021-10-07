@@ -1,0 +1,106 @@
+body {
+	text-align: center;
+	background: url(http://thewallpaper.co/wp-content/uploads/2016/10/desktop-images-downlaod-amazing.cool_.download-windows-wallpapers-high-definition-pictures-apple-tablet-1920x1080.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-family: Monoton;
+	font-size: 70px;
+	margin: 0.2em;
+}
+
+h2 {
+	margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+	margin-top: 0.5em;
+}
+
+section {
+	border: 2px black solid;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 4px;
+	padding-bottom: 5px;
+}
+
+input {
+	width: 10em;
+	height: 2em;
+	font-size: 0.8em;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+#dashBoard {
+	float: left;
+	width: 30%;
+}
+
+#Canvas {
+	float: right;
+	width: 65%;
+	padding: 15px;
+}
+
+table,
+tr,
+td {
+	border: 1px solid black;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+tr {
+	height: 20px;
+}
+
+td {
+	width: 20px;
+}
+
+input[type=number] {
+	width: 6em;
+}
+
+footer {
+	position: relative;
+	clear: both;
+	width: 100%;
+	text-align: center;
+	background: radial-gradient(circle, #fff, transparent);
+	height: 35px;
+	bottom: 0;
+	margin-top: 40%;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
+
+footer a:hover {
+	text-decoration: underline;
+	color: crimson;
+	transition: 300ms all;
+}
+
+footer p {
+	font-size: 1.2rem;
+}
+
+#submit_grid:hover {
+	background-color: rgba(0, 255, 0, 0.5);
+}
+
+#clear_grid:hover {
+	background-color: rgba(255, 0, 0, 0.5);
+}
